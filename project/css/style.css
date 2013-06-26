@@ -1,0 +1,120 @@
+/* TODO Make the glowy bit nicer and sharper */
+.strength0 {
+    text-shadow: 0px 0px 2px #ff0000, 0px 5px 10px #ff0000;
+}
+
+.strength1 {
+    text-shadow: 0px 0px 2px #ff5f5f, 0px 5px 10px #ff5f5f;
+}
+
+.strength2 {
+    text-shadow: 0px 0px 2px #ff8b29, 0px 5px 10px #ff8b29;
+
+}
+
+.strength3 {
+
+    text-shadow: 0px 0px 2px #56e500, 0px 5px 10px #56e500;
+}
+
+.strength4 {
+    text-shadow: 0px 0px 2px #4dcd00, 0px 5px 10px #4dcd00;
+
+}
+
+.strength5 {
+    text-shadow: 0px 0px 2px #399800, 0px 5px 10px #399800;
+
+}
+
+#passwordWell {
+    padding-right: 2em;
+}
+
+#createUser label.error {
+    margin-left: 10px;
+    width: auto;
+    display: inline;
+}
+
+html, body {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+
+
+input[type=text], input[type=password], .add-on {
+    height: 28px !important;
+}
+
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    position: relative
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+.fc-row > div {
+    overflow: visible;
+}
+
+div.fc-row > div:hover {
+    background-color: rgb(11, 144, 151);
+    color: rgb(255, 255, 255);
+}
+
+div.fc-row > div:active {
+    background-color: rgb(0, 198, 255);
+
+}
+
+div.fc-row > div.fc-today:hover {
+    background-color: rgb(246, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
+div.fc-row > div.fc-today:active {
+    background-color: rgb(246, 118, 118);
+}
+
+div.fc-row > div {
+    opacity: 1.00;
+
+}
+
+.visible {
+    overflow: visible !important;
+
+}
+
+.popover-content {
+    width: 30em;
+}
+
+#popover-buttons {
+    padding-top: 15px;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.popup-text {
+    color: black;
+}
+
+.popover-title {
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom-color: rgb(255,255,255) !important;
+}
+

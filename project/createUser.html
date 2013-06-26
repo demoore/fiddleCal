@@ -1,0 +1,56 @@
+
+<!-- CONTENT -->
+<div class="container">
+    <h1>Create User</h1>
+
+    <form action="project/php/processUser.php" method="POST" class="form-horizontal" id="createUser">
+
+        <div class="control-group">
+            <label class="control-label" for="userEmail">Email:</label>
+
+            <div class="controls">
+                <input type="text" name="userEmail" class="span4" id="userEmail" onblur="validateForm()"/>
+                <span id="confirmEmail"></span> <br>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label for="password" class="control-label">Password:</label>
+
+            <div class="controls">
+                <input type="password" name="password" class="span4" id="password"
+                       onblur="passwordStrength(this.value,document.getElementById('strength'),document.getElementById('passError'))"/>
+                <span id="passError"></span><span id="strength"></span> <br>
+            </div>
+        </div>
+
+
+        <div class="control-group">
+            <label for="rePassword" class="control-label">Retype Password:</label>
+
+            <div class="controls">
+                <input type="password" name="rePassword"
+                       class="span4" id="rePassword"
+                       onkeyup="checkPass(); return false;"/>
+                <span id="confirmMessage"></span><br>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label for="firstName" class="control-label">First Name:</label>
+
+            <div class="controls">
+                <input type="text" name="firstName" class="span4" id="firstName"/> <br>
+
+            </div>
+        </div>
+        <div class="controls">
+            <input type="submit" value="Submit" class="btn"/>
+        </div>
+    </form>
+
+</div>
+
+</body>
+
+</html>
